@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Steve Riggins";
 				TargetAttributes = {
+					000E9DA318CA820300B30DA1 = {
+						DevelopmentTeam = 472U6838BJ;
+					};
 					000E9DC418CA820300B30DA1 = {
 						TestTargetID = 000E9DA318CA820300B30DA1;
 					};
@@ -379,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EstimatedHeight/EstimatedHeight-Prefix.pch";
 				INFOPLIST_FILE = "EstimatedHeight/EstimatedHeight-Info.plist";
@@ -392,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EstimatedHeight/EstimatedHeight-Prefix.pch";
 				INFOPLIST_FILE = "EstimatedHeight/EstimatedHeight-Info.plist";
@@ -461,6 +466,7 @@
 				000E9DD818CA820300B30DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000E9DD918CA820300B30DA1 /* Build configuration list for PBXNativeTarget "EstimatedHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +475,7 @@
 				000E9DDB18CA820300B30DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
