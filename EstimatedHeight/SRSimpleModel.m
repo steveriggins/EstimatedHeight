@@ -12,7 +12,7 @@
 
 - (NSUInteger)testValue
 {
-    return 100;
+    return 101;
 }
 
 @end
