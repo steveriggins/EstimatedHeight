@@ -21,6 +21,8 @@
 		000E9DC918CA820300B30DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000E9DAB18CA820300B30DA1 /* UIKit.framework */; };
 		000E9DD118CA820300B30DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000E9DCF18CA820300B30DA1 /* InfoPlist.strings */; };
 		000E9DD318CA820300B30DA1 /* EstimatedHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E9DD218CA820300B30DA1 /* EstimatedHeightTests.m */; };
+		AAC9CE37194CD8C80090D10E /* SRSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC9CE36194CD8C80090D10E /* SRSimpleModel.m */; };
+		AAC9CE38194CD8C80090D10E /* SRSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC9CE36194CD8C80090D10E /* SRSimpleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		000E9DCE18CA820300B30DA1 /* EstimatedHeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EstimatedHeightTests-Info.plist"; sourceTree = "<group>"; };
 		000E9DD018CA820300B30DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		000E9DD218CA820300B30DA1 /* EstimatedHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimatedHeightTests.m; sourceTree = "<group>"; };
+		AAC9CE35194CD8C80090D10E /* SRSimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSimpleModel.h; sourceTree = "<group>"; };
+		AAC9CE36194CD8C80090D10E /* SRSimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSimpleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				000E9DB718CA820300B30DA1 /* SRAppDelegate.m */,
 				000E9DB918CA820300B30DA1 /* Main.storyboard */,
 				000E9DBC18CA820300B30DA1 /* SRViewController.h */,
+				AAC9CE35194CD8C80090D10E /* SRSimpleModel.h */,
+				AAC9CE36194CD8C80090D10E /* SRSimpleModel.m */,
 				000E9DBD18CA820300B30DA1 /* SRViewController.m */,
 				000E9DBF18CA820300B30DA1 /* Images.xcassets */,
 				000E9DAE18CA820300B30DA1 /* Supporting Files */,
@@ -197,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SR;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Steve Riggins";
 				TargetAttributes = {
 					000E9DA318CA820300B30DA1 = {
@@ -255,6 +261,7 @@
 			files = (
 				000E9DB418CA820300B30DA1 /* main.m in Sources */,
 				000E9DBE18CA820300B30DA1 /* SRViewController.m in Sources */,
+				AAC9CE37194CD8C80090D10E /* SRSimpleModel.m in Sources */,
 				000E9DB818CA820300B30DA1 /* SRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC9CE38194CD8C80090D10E /* SRSimpleModel.m in Sources */,
 				000E9DD318CA820300B30DA1 /* EstimatedHeightTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +317,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -348,7 +355,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -408,7 +414,6 @@
 		000E9DDA18CA820300B30DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EstimatedHeight.app/EstimatedHeight";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -431,7 +436,6 @@
 		000E9DDB18CA820300B30DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EstimatedHeight.app/EstimatedHeight";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

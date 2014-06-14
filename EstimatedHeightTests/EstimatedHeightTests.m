@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SRSimpleModel.h"
 
 @interface EstimatedHeightTests : XCTestCase
 
@@ -26,8 +27,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSimpleModel
 {
+    SRSimpleModel *simpleModel = [[SRSimpleModel alloc] init];
+    NSUInteger testValue = simpleModel.testValue;
+    XCTAssertTrue(testValue == 100, @"testValue was %d, should be %d", testValue, 100);
 }
 
 @end
